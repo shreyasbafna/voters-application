@@ -86,7 +86,7 @@ function App() {
 
   const checkVoted = async () => {
     const { ethereum } = window;
-    if (ethereum) {
+    if (ethereum && currentAccount) {
       try {
         const provider = new ethers.providers.Web3Provider(window.ethereum);
         const signer = provider.getSigner();
