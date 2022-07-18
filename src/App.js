@@ -152,7 +152,8 @@ function App() {
     getTotalCount();
     getVoterCount();
     checkVoted();
-  }, [currentAccount, checkVoted]);
+    // eslint-disable-next-line
+  }, [currentAccount]);
 
   const candidateDetails = () => {
     return (
