@@ -4,7 +4,7 @@ import contract from "./contracts/Election.json";
 import { ethers } from "ethers";
 import styled from "styled-components";
 
-const contractAddress = "0xaD04E7f15d9105E0AF5e9DBe5CFB56BDC4968a58";
+const contractAddress = "0xdd8C382DE03D3A3B279D4316a9aDaf85b7e083Bd";
 
 const Flex = styled.div`
   display: flex;
