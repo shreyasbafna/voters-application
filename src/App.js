@@ -181,7 +181,7 @@ function App() {
   return (
     <div className="main-app">
       {count > 0 && (
-        <h2 style={{ color: "#29AB87" }}>Total No of Candidates : {count}</h2>
+        <h2 style={{ color: "#29AB87" }}>Total No of Candidate : {count}</h2>
       )}
       <div>{!currentAccount && connectWalletButton()}</div>
       {count > 0 && candidateDetails()}
